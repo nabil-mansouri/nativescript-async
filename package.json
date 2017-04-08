@@ -1,0 +1,37 @@
+{
+  "name": "nativescript-async",
+  "version": "1.0.0",
+  "description": "A NativeScript plugin that make available async/await using helpers",
+  "main": "index",
+  "typings": "index.d.ts",
+  "nativescript": {
+    "platforms": {
+      "android": "2.5.0",
+      "ios": "2.5.0"
+    }
+  }, 
+  "scripts": {
+    "watch": "tsc --watch;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nabil-mansouri/nativescript-async.git"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "nativescript"
+  ],
+  "author": {
+    "name": "Nabil Mansouri",
+    "email": "nabil.mansouri.3@gmail.com",
+    "url": "http://e-devservice.com/"
+  },
+  "license": "Apache 2",
+  "devDependencies": {
+    "tns-core-modules": "^2.5.0",
+    "tns-platform-declarations": "^2.5.0"
+  },
+  "dependencies": { 
+  }
+}
