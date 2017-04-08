@@ -9,4 +9,8 @@ A NativeScript plugin that make available async/await using helpers
 # How to use it
 ```typescript
 require('nativescript-async');
+asyncTimeout(100);
+asyncJasmine(async()=>{
+    //MY TEST WITHOUT done()
+})
 ```
